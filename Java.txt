@@ -1,0 +1,3 @@
+what is www:
+The World Wide Web (WWW or simply the Web) is an information system where documents and other web resources are identified by Uniform Resource Locators (URLs), interlinked by hypertext links, and accessible over the Internet. It was invented by Sir Tim Berners-Lee in 1989 and has since revolutionized how information is shared and accessed globally.
+World Wide Web (WWW) itself is not a protocol. It is a system for accessing and sharing information over the Internet. The World Wide Web uses various protocols to function, with the most prominent being HTTP (Hypertext Transfer Protocol) and HTTPS (HTTP Secure).
