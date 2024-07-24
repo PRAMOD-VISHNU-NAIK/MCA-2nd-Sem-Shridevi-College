@@ -1,5 +1,3 @@
-package Example;
-
 /**
  * I am writing this program to test the Javadoc.
  * <p>

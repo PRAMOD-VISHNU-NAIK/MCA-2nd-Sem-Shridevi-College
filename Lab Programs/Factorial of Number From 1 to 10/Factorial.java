@@ -13,7 +13,7 @@ class Factorial {
         System.out.println(fact);
     */
 
-        // Factorial of 1 to 10
+        // Factorial of a number from 1 to 10
 
         for(int i=1; i<=10; i++){
             int num = i;
@@ -21,7 +21,7 @@ class Factorial {
             for(int j=1; j<=num; j++){
                 fact = fact * j;
             }
-            System.out.println("Factorial of Number "+num+"is: "+ fact);
+            System.out.println("Factorial of Number "+ num +"is: "+ fact);
             
         }
     }
