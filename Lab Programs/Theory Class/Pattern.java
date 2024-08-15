@@ -1,15 +1,20 @@
+class Student{
+	
+	String name;
+	int rollNum;
+	static String college_name;
+	
+	public static void print_college(Student obj) {
+		System.out.println("This is Static Method!");
 
-public class Pattern {
-    public static void main(String[] args) {
-        
-        int num = 5;
-        int n = 1;
-        for ( int i =1; i<=num; i++){
-            for(int j= 1; j<= i; j++){
-                System.out.print(n);
-                n = n + 1;
-            }
-            System.out.println();
-        }
-    }
+
+        boolean condition = true;
+
+        int expression2 = 3;
+
+        int expression1 = 1;
+
+        int sum = condition ? expression1 : expression2;
+	}
+	
 }
