@@ -12,3 +12,10 @@ public class Dog extends Animal {
     }
 }
 
+
+accessSpecifier returnType methodName(parameterType1 parameter1, parameterType2 parameter2, ...) {
+    // Method body: code to be executed
+    // Optionally return a value of type 'returnType'
+}
+
+
