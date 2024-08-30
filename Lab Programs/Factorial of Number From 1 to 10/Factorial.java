@@ -1,3 +1,6 @@
+// Write a Java program to list the factorial of the numbers 1 to 10. To calculate the factorial value use while loop. (Hint Fact of 4=4*3*2*1).
+
+
 class Factorial {
     public static void main(String[] args) {
 
