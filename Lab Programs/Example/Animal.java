@@ -1,19 +1,22 @@
-package pramod;
+class MathUtils {
+    // Static method
+    public static int add(int a, int b) {
+        return a + b;
+    }
 
-public class Animal {
-	String name;
-
-
-    public final void makeSound() {
-        System.out.println(name + " is making a sound");
+    // Static method
+    public static int multiply(int a, int b) {
+        return a * b;
     }
 }
 
-class Dog extends Animal{
-	
-    // Bellow Code will give Error: Cannot override the final method from Animal
-	// public void makeSound() {
-    //     System.out.println(name + " is making a sound");
-    // }
-	
+public class Main {
+    public static void main(String[] args) {
+        // Access static methods without creating an instance of MathUtils
+        int sum = MathUtils.add(10, 20);          // Output: 30
+        int product = MathUtils.multiply(10, 20); // Output: 200
+        
+        System.out.println("Sum: " + sum);
+        System.out.println("Product: " + product);
+    }
 }
